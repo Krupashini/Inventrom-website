@@ -1,0 +1,128 @@
+ul {
+    list-style-type: none;
+    margin: 150;
+    padding: 200;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 15px 10px;
+    margin-right:10%;
+    gap:10px;
+    text-decoration: none;
+  }
+  .bolt{
+  background-image:url("images/background-layer.png");
+  height: 100vh;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-family:"Helvetica Neue";
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  font-size: 20px;
+  }
+  h1{
+    color:#139139;
+    text-align: center;
+    font-size: 35px;
+  }
+  #about,#awards{
+  color:#000000;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  justify-content: center;
+  }
+  .vision{
+   float: left;
+   margin-left: 8%;
+   padding-right: 1%;
+  }
+.mission{
+    float: right;
+    margin-right:8%;
+    padding-left: 50px;
+    color:#000000;
+  }
+ .vision-desc{
+  font-size: 20px;
+  float: left;
+  margin-left: 8%;
+  color:#000000;
+ }
+ .mission-desc{
+  font-size: 20px;
+  float: right;
+  margin-right: 8%;
+ }
+  #awards{
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  text-align: center;
+  }
+  .pics {
+    float: left;
+    padding: 2px;
+  }
+  .pics img{
+    width: 100%;
+    height: auto;  
+  }
+  .pic-desc{
+  padding: 10px;
+  text-align: center;
+  }
+  .pic-desc p{
+  text-align: center;
+  color:gray; 
+  font-size: 15px; 
+  } 
+  .contact-left{
+  width: 50%;
+  margin-left: 100px;
+  float: left;
+  }
+  .contact-right{
+  width: 50%;
+  float: right;
+  margin-left: 250px;
+  line-height: 25px;
+  }
+  .contact-right img{
+    height:20px;
+    width:20px;
+    margin-right:10px;
+  }
+  .contact-right p{
+    color:gray;
+    font-size: 15px;
+  }
+  .footer img{
+    float: right;
+    height:15px;
+    width:15px;
+    margin: 5px;
+    justify-content: space-around;
+  }
+  .icons p{
+    margin-left: 15%;
+    color: #ffffff;
+  }
+  .icons-img{
+  float:right;
+  margin-right: 15%;
+  margin-top: 0;
+  }
+  .footer{
+    background-color: #139139; 
+    width:100%
+  }
