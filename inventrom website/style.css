@@ -88,13 +88,11 @@ ul {
   } 
   .contact-left{
   width: 50%;
-  margin-left: 100px;
   float: left;
   }
   .contact-right{
   width: 50%;
   float: right;
-  margin-left: 250px;
   line-height: 25px;
   }
   .contact-right img{
